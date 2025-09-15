@@ -42,7 +42,7 @@ export class GeminiAgent implements AIAgent {
         temperature: 0.7,
         topK: 40,
         topP: 0.95,
-        maxOutputTokens: 1000,
+        maxOutputTokens: 3000,
       },
       tools: [
         {
@@ -136,7 +136,7 @@ Your goal is to provide accurate, current, and helpful written content. Failure 
         temperature: 0.7,
         topK: 40,
         topP: 0.95,
-        maxOutputTokens: 8192,
+        maxOutputTokens: 3000,
       },
     });
 
